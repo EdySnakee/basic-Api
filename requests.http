@@ -1,0 +1,28 @@
+GET http://localhost:3000/users HTTP/1.1
+###
+GET http://localhost:3000/users/1 HTTP/1.1
+
+###
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+ {
+    "email": "cosas@reqres.in",
+  "first_name": "Cosas dev",
+  "last_name": "Angular",
+  "avatar": "https://reqres.in/img/faces/1-image.jpg"
+  }
+
+###
+PUT  http://localhost:3000/users/8 HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "correo@correo.com"
+    
+}
+
+
+
+###
+DELETE  http://localhost:3000/users/8  HTTP/1.1
