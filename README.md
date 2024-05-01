@@ -14,7 +14,7 @@ Una vez instalado Node.js, clona este repositorio usando:
 
 bash
 Copy code
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone (repo)
 cd tu-repositorio
 Instala las dependencias necesarias:
 
